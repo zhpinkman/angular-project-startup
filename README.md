@@ -41,3 +41,11 @@ you have two options for adding bootstrap library to your project:
 ```
 @import '~bootstrap/dist/css/bootstrap.min.css';
 ```
+
+# adding angular notifier to project
+
+for this purpose we can use npm to install `angular-notifier` :
+
+> npm i angular-notifier
+
+and also you have to import `NotifierModule` into your `app.module.ts` that is available in `angular-notifier` package
